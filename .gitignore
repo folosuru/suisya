@@ -1,0 +1,6 @@
+build/
+artifact/
+
+.idea
+vs
+.cache/

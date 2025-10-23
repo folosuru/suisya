@@ -1,0 +1,9 @@
+Hello, this is normal Raw text.
+You can use $$ to use dollar character.
+
+$let name = "Bob"
+Hello, I am $name.
+
+$let name2 = "西田"
+こんにちは、$name2;です。
+$name.len

@@ -1,0 +1,6 @@
+Hello, this is normal Raw text.
+You can use $ to use dollar character.
+
+Hello, I am Bob.
+
+こんにちは、西田です。
