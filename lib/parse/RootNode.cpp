@@ -2,13 +2,13 @@
 
 #include <string>
 
-#include "CompileContext.hpp"
-#include "Token.hpp"
 #include "error/ErrorReport.hpp"
-#include "script/statement/Statement.hpp"
-#include "script/statement/ValueNode.hpp"
+#include "parse/statement/Statement.hpp"
+#include "parse/statement/ValueNode.hpp"
+#include "script/CompileContext.hpp"
 #include "script/value/ContentValue.hpp"
 #include "script/value/ValueBase.hpp"
+#include "tokenize/Token.hpp"
 
 namespace Suisya {
 ValueBase RootNode::exec(Tokenizer &tokenizer, CompileContext &ctx, const ErrorReportFunc_t &err) {

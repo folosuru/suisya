@@ -6,10 +6,10 @@
 #include <string_view>
 
 #include "Literal.hpp"
-#include "Token.hpp"
 #include "error/ErrorReport.hpp"
 #include "script/utility.hpp"
 #include "script/value/ValueBase.hpp"
+#include "tokenize/Token.hpp"
 
 namespace Suisya {
 

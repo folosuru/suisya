@@ -4,9 +4,9 @@
 #include <optional>
 #include <type_traits>
 
-#include "Token.hpp"
 #include "script/utility.hpp"
 #include "script/value/ValueBase.hpp"
+#include "tokenize/Token.hpp"
 
 namespace Suisya {
 

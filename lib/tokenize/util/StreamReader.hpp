@@ -1,13 +1,13 @@
 #pragma once
 
-#include <cstddef>
-#include <deque>
-
-#include "Token.hpp"
 #ifndef SUISYA_TOKENIZE_STREAMREADER_HPP
 #define SUISYA_TOKENIZE_STREAMREADER_HPP
+#include <cstddef>
+#include <deque>
 #include <iosfwd>
 #include <queue>
+
+#include "tokenize/Token.hpp"
 
 namespace Suisya {
 

@@ -4,8 +4,6 @@
 #include <cstdio>
 #include <istream>
 
-#include "Token.hpp"
-
 namespace Suisya {
 
 int StreamReader::peek() {

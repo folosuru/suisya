@@ -2,10 +2,10 @@
 
 #include <optional>
 
-#include "Token.hpp"
-#include "Tokenizer.hpp"
 #include "script/value/ContentValue.hpp"
 #include "script/value/ValueBase.hpp"
+#include "tokenize/Token.hpp"
+#include "tokenize/Tokenizer.hpp"
 
 namespace Suisya {
 

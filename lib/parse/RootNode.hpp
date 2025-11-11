@@ -1,10 +1,10 @@
 #pragma once
-#include "CompileContext.hpp"
 #include "error/ErrorReport.hpp"
+#include "script/CompileContext.hpp"
 #ifndef SUISYA_SCRIPT_ROOTNODE_HPP
 #define SUISYA_SCRIPT_ROOTNODE_HPP
-#include "Tokenizer.hpp"
-#include "value/ValueBase.hpp"
+#include "script/value/ValueBase.hpp"
+#include "tokenize/Tokenizer.hpp"
 
 namespace Suisya {
 class RootNode {
